@@ -1,0 +1,24 @@
+@media (max-width: 376px) {
+  .hero__title {
+    font-size: 3vh;
+  }
+
+  .hero__desc {
+    font-size: 15px;
+  }
+
+  .video {
+    margin: 0px 55px;
+  }
+
+  .video-block__play-button {
+    position: absolute;
+    top: 28%;
+    left: 33%;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+
+    height: 15%;
+  }
+}

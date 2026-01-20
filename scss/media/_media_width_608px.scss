@@ -1,0 +1,32 @@
+@media (max-width: 608px) {
+  .container {
+    margin: 0px 30px;
+  }
+
+  .header__items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero__desc {
+    width: 80%;
+  }
+
+  .about-me__content {
+    margin: 0px 90px;
+    width: 70%;
+  }
+
+  .section-icon__item {
+    display: block;
+  }
+
+  .video {
+    margin: 0px 90px;
+    width: 70%;
+  }
+
+  p {
+    width: 100%;
+  }
+}

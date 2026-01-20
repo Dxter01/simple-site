@@ -1,0 +1,57 @@
+@use "variables";
+
+.hero {
+  background-color: variables.$bg-color-one;
+  padding-bottom: 140px;
+}
+
+.header {
+  padding: 80px 0 115px;
+}
+.header__items {
+  display: flex;
+  gap: 50px;
+}
+.header__item:hover {
+  transition: all 0.5s;
+  transform: scale(1.15);
+}
+
+.header__link {
+  color: variables.$title-color;
+  letter-spacing: 2px;
+}
+.header__link:hover {
+  color: variables.$bg-color-second;
+  transition: all 0.5s;
+}
+.header__link--active {
+  color: variables.$bg-color-second;
+  transition: all 0.5s;
+}
+
+.hero__title {
+  font-weight: 500;
+  font-size: 48px;
+  color: variables.$title-color;
+  margin-bottom: 60px;
+}
+
+.hero__desc {
+  width: 540px;
+  margin-bottom: 60px;
+}
+
+.header__button {
+  background-color: variables.$bg-color-second;
+  padding: 15px 40px;
+  color: variables.$white-text;
+  border: none;
+  letter-spacing: 1.6px;
+  cursor: pointer;
+}
+.header__button:hover {
+  transition: all 0.5s;
+  transform: scale(1.15);
+  border-radius: 15px;
+}

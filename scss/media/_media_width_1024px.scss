@@ -1,0 +1,11 @@
+@media (max-width: 1024px) {
+  .section-icon__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .section-icon {
+    padding: 30px;
+    padding-left: 85px;
+  }
+}

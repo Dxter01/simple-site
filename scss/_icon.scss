@@ -3,35 +3,36 @@
 .section-icon {
   background-color: variables.$bg-color-second;
   padding-block: 100px;
-}
 
-.section-icon__items {
-  display: flex;
-  gap: 45px;
-  justify-content: space-between;
-}
+  &__items {
+    display: flex;
+    gap: 45px;
+    justify-content: space-between;
+  }
 
-.section-icon__item {
-  display: flex;
-  gap: 20px;
-  transition: all 0.5s;
-  align-items: center;
-}
-.section-icon__item:hover {
-  transform: scale(1.15);
-  transition: all 0.5s;
+  &__item {
+    display: flex;
+    gap: 20px;
+    transition: all 0.5s;
+    align-items: center;
+  }
+
+  &__item:hover {
+    transform: scale(1.15);
+    transition: all 0.5s;
+  }
 }
 
 .icon-text {
   display: flex;
   flex-direction: column;
-}
 
-.icon-text__span {
-  color: variables.$white-text;
-}
+  &__span {
+    color: variables.$white-text;
+  }
 
-.icon-text__span-size-one {
-  font-size: 21px;
-  font-weight: 500;
+  &__span-size-one {
+    font-size: 21px;
+    font-weight: 500;
+  }
 }

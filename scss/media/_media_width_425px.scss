@@ -23,10 +23,10 @@
 
   .section-icon {
     padding: 30px 0;
-  }
 
-  .section-icon__item {
-    display: block;
+    &__item {
+      display: block;
+    }
   }
 
   .about-me__content {

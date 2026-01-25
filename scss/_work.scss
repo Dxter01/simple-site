@@ -2,6 +2,13 @@
 
 .section-how-i-work {
   background-color: variables.$bg-color-one;
+
+  &__title {
+    font-size: 32px;
+    font-weight: 500;
+    color: variables.$title-color;
+    margin-bottom: 50px;
+  }
 }
 
 .video {
@@ -11,34 +18,28 @@
   padding: 100px 0px 55px;
 }
 
-.section-how-i-work__title {
-  font-size: 32px;
-  font-weight: 500;
-  color: variables.$title-color;
-  margin-bottom: 50px;
-}
-
 .video-block {
   position: relative;
-}
 
-.video-block__player {
-  max-width: 100%;
-  display: block;
-  padding-bottom: 100px;
-}
+  &__player {
+    max-width: 100%;
+    display: block;
+    padding-bottom: 100px;
+  }
 
-.video-block__play-button {
-  position: absolute;
-  top: 35%;
-  left: 45%;
-  width: 100px;
-  height: 100px;
-  cursor: pointer;
-}
-.video-block__play-button:hover {
-  transform: scale(1.15);
-  transition: all 0.5s;
-  background-color: variables.$bg-color-second;
-  border-radius: 50%;
+  &__play-button {
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+  }
+
+  &__play-button:hover {
+    transform: scale(1.15);
+    transition: all 0.5s;
+    background-color: variables.$bg-color-second;
+    border-radius: 50%;
+  }
 }
